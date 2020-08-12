@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: com.carros.CarrosAPITest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 16.313 s <<< FAILURE! - in com.carros.CarrosAPITest
+testGetNotFound  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'uploadController': Unsatisfied dependency expressed through field 'uploadService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'firebaseStorageService': Invocation of init method failed; nested exception is java.lang.NullPointerException
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'firebaseStorageService': Invocation of init method failed; nested exception is java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+
+testGetOk  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'uploadController': Unsatisfied dependency expressed through field 'uploadService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'firebaseStorageService': Invocation of init method failed; nested exception is java.lang.NullPointerException
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'firebaseStorageService': Invocation of init method failed; nested exception is java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+
+testLista  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'uploadController': Unsatisfied dependency expressed through field 'uploadService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'firebaseStorageService': Invocation of init method failed; nested exception is java.lang.NullPointerException
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'firebaseStorageService': Invocation of init method failed; nested exception is java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+
+testSave  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'uploadController': Unsatisfied dependency expressed through field 'uploadService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'firebaseStorageService': Invocation of init method failed; nested exception is java.lang.NullPointerException
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'firebaseStorageService': Invocation of init method failed; nested exception is java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+
+testListaPorTipo  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'uploadController': Unsatisfied dependency expressed through field 'uploadService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'firebaseStorageService': Invocation of init method failed; nested exception is java.lang.NullPointerException
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'firebaseStorageService': Invocation of init method failed; nested exception is java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+
